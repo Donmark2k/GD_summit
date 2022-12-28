@@ -1,18 +1,18 @@
-// const hamburger = document.querySelector('.hamburger');
-// const navMenu = document.querySelector('.nav-menu');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 // const navLogo = document.querySelector('.nav-branding');
 
-// hamburger.addEventListener('click', () => {
-//   hamburger.classList.toggle('active');
-//   navMenu.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
 //   navLogo.classList.toggle('active');
-// });
+});
 
-// document.querySelectorAll('.nav-link').forEach((n) => n
-//   .addEventListener('click', () => {
-//     hamburger.classList.remove('active');
-//     navMenu.classList.remove('active');
-//   }));
+document.querySelectorAll('.nav-link').forEach((n) => n
+  .addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  }));
 
 // pop-up menu
 const speakers = [{
@@ -51,16 +51,16 @@ const speakers = [{
   speakerInfo: 'Izuchukwu Josiah is the Executive Director of the Okechi Media Group, the non profit organization that operates Mediagram. Mediagram is freely available in 290 languages and used by nearly half a billion people around the world every month',
 },
 {
-    id: '6',
-    speakerName: ' Olanma Olaide',
-    speakerImage: 'img/speaker6.png',
-    speakerPosition: 'img/Professor at School of Health Science.',
-    speakerInfo: 'Olanma had been leading open-source projects at the Orange Health Science Foundation such as the open source movement.',
-  }];
+  id: '6',
+  speakerName: ' Olanma Olaide',
+  speakerImage: 'img/speaker6.png',
+  speakerPosition: 'img/Professor at School of Health Science.',
+  speakerInfo: 'Olanma had been leading open-source projects at the Orange Health Science Foundation such as the open source movement.',
+}];
 
 const guestSpeakers = document.querySelector('#invited-speakers');
 for (let i = 0; i < speakers.length; i += 1) {
-    guestSpeakers.innerHTML += `
+  guestSpeakers.innerHTML += `
    
     <article class="speakers-card" aria-label="My Expertise ">
     <div class="speakers-image"><img src="${speakers[i].speakerImage}" alt="language details" /></div> 

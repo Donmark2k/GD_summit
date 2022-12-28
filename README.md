@@ -95,13 +95,13 @@ Eslint was used to check for erroes in menu.js
 
 ### Key Features <a name="key-features"></a>
 
-- **[introducing myself as a software developer]**
-- **[languages that I can code in]**
-- **[my past project]**
-- **[contact me section]**
+- **[introduce a forthcoming summit]**
+- **[introduce the guest speakers]**
+- **[show the pictures of the past summit]**
+- **[showcase who won the logo competition]**
 - **[Responsive Version]**
 - **[interactive hamburger menu]**
-- **[modal pop up on clicking see project]**
+- **[see more guest speakers on clicking see more]**
 
 
 
