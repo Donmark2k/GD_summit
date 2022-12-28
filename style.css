@@ -231,7 +231,7 @@ padding-bottom: 100px;
 .grid-container2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-    width: 80%;
+    width: 74%;
     justify-content: start;
     align-content: center;
     margin: 0 auto 0 auto;
@@ -243,53 +243,65 @@ padding-bottom: 100px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      
   }
+
+  /* .speakers-card:hover {
+    border: 2px solid #d3d3d3;
+    transition-timing-function: ease-in-out;
+    transition: width 2s;
+} */
 
   .speakers-image {
     background: url(img/img-b.PNG) left top no-repeat;
     position: relative;
     
       width: 20%;
-      /* background-color: green; */
       display: block;
       margin: auto;
-      margin-left: 24px;
-      background-color: #ec5242;
       height: 100%;
+      margin: 0;
+      padding: 0;
       
   }
 
   .speakers-image img {
       display: block;
-      margin: auto;
-      /* margin-left: 12px; */
-      right: 0;
-      bottom: 0;
-      margin-left: 12px;
-      margin-top: 24px;
+      margin-left: 16px;
+      margin-top: 16px;
+      width: 100%;
   }
 
   .speakers-details {
-      background-color: purple;
-      width: 70%;
+      width: 73%;
   }
 
 .speakers-details h3 {
     color: #272a31;
     font-size: 18px;
+    padding-top: 12px;
+    font-weight: bold;
 }
 
 .speakers-details h5 {
     color: #ec5242;
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 4px;
+    padding-bottom: 8px;
+
 }
+
+.line-bar-speaker {
+    display: block;
+    margin: 0;
+    background-color:rgba(60, 63, 70, 0.5);
+width: 35px;
+height: 4px;
+  }
 
 .speakers-details p {
     color: #272a31;
-    font-size: 15px;
-    padding-top: 12px;
+    font-size: 14px;
+    padding-top: 8px;
 }
 
 .partner {
@@ -366,6 +378,9 @@ footer {
     width: 70%;
     line-height: 50px;
     margin: 0 auto 0 auto;
+}
+.short-intro-mobile, .hello-share, .competition-date-mobile, .about-partner {
+    display: none;
 }
 
 .about .short-intro {
@@ -475,16 +490,6 @@ footer.about {
 .summit .line-bar {
     margin-bottom: 18px;
 }
-/* .grid-container2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-    width: 76%;
-    justify-content: start;
-    align-content: center;
-    margin: 0 auto 0 auto;
-    position: relative;
-    gap: 24px;
-  } */
 
 .past-images {
     display: grid;
@@ -540,8 +545,14 @@ footer.about {
 
 
 @media screen and (max-width: 768px) {
-    header.top-header, .nav-branding, .nav-menu, {
+    /* header.top-header, .nav-branding, .nav-menu, {
       display: none;
+      visibility: hidden;
+    } */
+
+    header.top-header {
+        display: none;
+        visibility: hidden;
     }
 
     .forum .whole-program {
@@ -549,7 +560,7 @@ footer.about {
         visibility: hidden;
       }
 
-    .hamburger {
+    header.hamburger {
         display: block;
         background: url(img/hamburger-bg.png)  no-repeat;
         width: 100%;
@@ -661,22 +672,222 @@ footer.about {
         margin: 24px auto 24px auto;
         font-weight: bold;
         border-radius: 4px;
-        margin-bottom: 24px;
     }
 
-    section.whole-container {
-        margin-bottom: 124px;
+    .forum {
+        padding-bottom: 12px;
     }
     .grid-container2 {
-    width: 100%;
+    width: 90%;
     }
     .speakers-card {
-        width: 90%;
+        width: 95%;
+        margin-bottom: 24px;
+    }
+       .speakers-image {
+        width: 30%;
+    }
+
+    .speakers-details {
+        width: 60%;
+    }
+
+    .speakers-details h3 {
+        padding-top: 0;
+    }
+    
+    .speakers-details h5 {
+        font-size: 12px;    
+    }
+    
+    
+    .speakers-details p {
+        font-size: 11px;
+        padding-top: 8px;
     }
 
     footer.home-page, .partner {
         display: none;
     }
+    
+    .about h3 {
+        color: #ec5242;
+        text-align: center;
+        font-size: 22px;
+        display: block;
+    }
 
+    section.about h1 {
+        margin: 0;
+        font-size: 30px;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .about .short-intro{
+        display: none;
+
+    }
+
+    .about .short-intro-mobile {
+        display: block;
+        margin: 50px auto 50px auto;
+        width: 98%;
+        background-color: #fff;
+        text-align: center;
+        color: #272a31;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 24px 8px;
+        border-radius: 4px;
+        font-weight: 400;
+    }
+
+    .via-mail > span {
+        display: none;
+    }
+    
+    .about .line-bar {
+        display: none;
+    }
+
+    .via-mail {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 24px;
+        text-decoration: underline;
+    }
+
+    .summit h2 {
+        text-align: center;
+        font-weight: bold;
+        color: #272a31;
+        font-size: 24px;
+        padding-bottom: 4px;
+        padding-top: 60px;
+        width: 75%;
+margin: 0 auto 0 auto;
+        }
+    
+    .summit p {
+        text-align: center;
+        width: 90%;
+        font-size: 12px;
+        margin: 0 auto 0 auto;
+        padding-top: 0;
+        color: #272a31;
+    
+    }
+
+    .competition-date {
+        display: none;
+    }
+    .competition-date-mobile {
+        display: block;
+    }
+
+    .summit img {
+        padding: 24px 72px;
+    }
+
+    .past-summit p {
+        text-align: center;
+        color: #272a31;
+        font-size: 12px;
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
+
+    .past-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+        justify-content: space-between;
+        width: 80%;
+        margin: 20px auto 20px auto;
+        align-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .second-image p, .first-image p {
+        color: #d3d3d3;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .about-partner {
+        display: block;
+        background-color: #272a31;
+    }
+
+    .about-partner .line-bar {
+        background-color: #5e2d28;
+    }
+    
+    .about-partner h2 {
+        text-align: center;
+        font-size: 18px;
+        color: #d3d3d3;
+        padding-top: 36px;
+        padding-bottom: 4px;
+    }
+
+    .about-partner .partner-list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        width: 95%;
+        margin: 0 auto 0 auto;
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 44px;
+
+    }
+
+    .footer-note {
+        display: none;
+    }
+
+    .about-footer {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 0 auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .logo2 {
+        width: 50%;
+    }
+
+    .logo2 img {
+        width: 98%;
+    }
+    
+    .about-footer .copyright-details{
+        width: 50%;
+    }
+    .copyright-details h4 {
+        color: #272a31;
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+        padding-top: 24px;
+    
+    }
+    footer.about {
+        background-color: #fff;
+    }
+    footer {
+        padding: 0;
+        margin: 0;
+        padding-top: 12px;
+    }
 }
 
