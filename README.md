@@ -57,9 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My_portfolio] <a name="about-project"></a>
+# 📖 [GD_summit] <a name="about-project"></a>
 
-**[My_portfolio]** is a project designed to display my professional skills, programming languages, finished projects and contact me session that is designed that run on both mobile and desktop devices.
+**[My_portfolio]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +69,7 @@ VS code, git, github, figma, photoshop
 
 Stylelint was used to check errors in style.css
 Webhint was used to check errors in index.html
-Eslint was used to check for erroes in menu.js
+Eslint was used to check for errors in menu.js
 <details>
   <summary>Client</summary>
   <ul>
@@ -130,9 +130,10 @@ You have to clone the repository first, then run it on your browser
 ### Prerequisites
 
 - In order to run this project you need:
-  - browser 
-  - VS code
 
+  - [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 <!--
 Example command:
 
@@ -183,6 +184,9 @@ Example command:
 
 To run tests, run the following command:
 
+To check for stylelint errors, run npx stylelint "**/*.css{css,scss}"
+To check for javascript error, run npx eslint .
+
 <!--
 Example command:
 
@@ -194,6 +198,8 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+
+
 
 <!--
 Example:
@@ -235,7 +241,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/GD_summit/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -250,8 +256,8 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank my future reviewers for making me a better me...
+## Acknowledgements
+Original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,7 +279,8 @@ I would like to thank my future reviewers for making me a better me...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+
+This project is [MIT](MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
