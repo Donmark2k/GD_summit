@@ -24,10 +24,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="img/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>GD Summit </b></h3>
 
 </div>
 
@@ -116,7 +116,7 @@ Eslint was used to check for errors in menu.js
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://donmark2k.github.io/My_portfolio/)
+- [Live Demo Link](https://donmark2k.github.io/GD_summit/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,6 +145,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+https://github.com/Donmark2k/GD_summit.git
 
 <!--
 Example commands:
@@ -215,7 +216,7 @@ Example:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
@@ -256,8 +257,7 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-## Acknowledgements
-Original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   Cindy Shin [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) who is the original author of this design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +281,5 @@ Original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845
 
 
 This project is [MIT](MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
