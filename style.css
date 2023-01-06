@@ -86,7 +86,8 @@ body {
   color: #ec5242;
 }
 
-.hamburger, .see-more,
+.hamburger,
+.see-more,
 .join-summit {
   display: none;
 }
@@ -198,7 +199,7 @@ body {
 .main-card:hover {
   border: 2px solid #d3d3d3;
   transition-timing-function: ease-in-out;
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .main-card img {
@@ -938,24 +939,25 @@ footer.about {
   }
 
   .see-more {
-      display: block;
-      width: 90%;
-      border: 1px solid #272a31;
-      margin: auto;
-      font-size: 20px;
-      font-family: 'Lato', sans-serif;
-      padding: 8px;
-      border-radius: 4px;
-      font-weight: 700;
-      color: #272a31;
-      background-color: #fff;
-    }
-    .see-more span {
-        color: #ec5242;
-    }
-    .see-more-box {
-              padding-bottom: 24px;
-              background-color: #fff;
+    display: block;
+    width: 90%;
+    border: 1px solid #272a31;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #272a31;
+    background-color: #fff;
+  }
 
-    }
+  .see-more span {
+    color: #ec5242;
+  }
+
+  .see-more-box {
+    padding-bottom: 24px;
+    background-color: #fff;
+  }
 }
