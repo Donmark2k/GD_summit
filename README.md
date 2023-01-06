@@ -59,11 +59,13 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [GD_summit] <a name="about-project"></a>
 
-**[My_portfolio]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria.
+**[GD_summit]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
+
+Here is a [presentation video] (https://www.loom.com/share/f020f9f045544a069926f31fcf471686)
 
 ## 🛠 Built With <a name="built-with"></a>
 
-VS code, git, github, figma, photoshop
+VS code, git, github, photoshop
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -131,7 +133,7 @@ You have to clone the repository first, then run it on your browser
 
 - In order to run this project you need:
 
-  - [git](https://git-scm.com/downloads): A tool for managing source code
+- [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 <!--
@@ -257,7 +259,7 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   Cindy Shin [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) who is the original author of this design
+I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin] (https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
