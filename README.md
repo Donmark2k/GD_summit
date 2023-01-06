@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 **[GD_summit]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
 
-Here is a [presentation video] (https://www.loom.com/share/f020f9f045544a069926f31fcf471686)
+Here is a [presentation video](https://www.loom.com/share/f020f9f045544a069926f31fcf471686)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,9 +69,9 @@ VS code, git, github, photoshop
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Stylelint was used to check errors in style.css
-Webhint was used to check errors in index.html
-Eslint was used to check for errors in menu.js
+- Stylelint was used to check errors in style.css.
+- Webhint was used to check errors in index.html.
+- Eslint was used to check for errors in menu.js.
 <details>
   <summary>Client</summary>
   <ul>
@@ -118,7 +118,7 @@ Eslint was used to check for errors in menu.js
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://donmark2k.github.io/GD_summit/)
+- Here is a [Live Demo Link](https://donmark2k.github.io/GD_summit/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -187,8 +187,8 @@ Example command:
 
 To run tests, run the following command:
 
-To check for stylelint errors, run npx stylelint "**/*.css{css,scss}"
-To check for javascript error, run npx eslint .
+- To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
+- To check for javascript error, run npx eslint .
 
 <!--
 Example command:
@@ -259,7 +259,7 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin] (https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin](https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
