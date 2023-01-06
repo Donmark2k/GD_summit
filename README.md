@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 **[GD_summit]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
 
-Here is a [presentation video](https://www.loom.com/share/f020f9f045544a069926f31fcf471686)
+Here is a [presentation video](https://www.loom.com/share/6f51d68b44344618b18a5a8b1641429a)
 
 ## 🛠 Built With <a name="built-with"></a>
 
