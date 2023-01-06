@@ -20,6 +20,7 @@ body {
 
 .home-href {
   visibility: hidden;
+  display: none;
 }
 
 .partner-list a {
@@ -85,7 +86,7 @@ body {
   color: #ec5242;
 }
 
-.hamburger,
+.hamburger, .see-more,
 .join-summit {
   display: none;
 }
@@ -197,7 +198,7 @@ body {
 .main-card:hover {
   border: 2px solid #d3d3d3;
   transition-timing-function: ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.1,1.1);
 }
 
 .main-card img {
@@ -346,32 +347,18 @@ footer {
   justify-content: space-between;
   width: 76%;
   margin: 0 auto 0 auto;
-  padding-top: 5px;
+  padding-top: 50px;
   flex-wrap: wrap;
-}
-
-.logo2 img {
-  display: block;
-  margin: auto 0;
-  padding-top: 24px;
 }
 
 .copyright-details {
   width: 70%;
   color: #272a31;
-  margin: auto 0;
 }
 
 .copyright-details h4 {
   width: 100%;
   padding-bottom: 12px;
-  text-align: left;
-  padding-top: 0;
-  margin-top: 0;
-}
-
-.copyright-details p {
-  text-align: left;
 }
 
 /* About Html Page */
@@ -558,6 +545,7 @@ footer.about {
 
   .home-href {
     visibility: visible;
+    display: block;
   }
 
   .nav-branding {
@@ -721,11 +709,12 @@ footer.about {
     color: #d3d3d3;
     padding: 24px;
     text-decoration: none;
-    width: 60%;
+    width: 65%;
     font-size: 13px;
     margin: 24px auto 24px auto;
     font-weight: bold;
     border-radius: 4px;
+    text-align: center;
   }
 
   .forum {
@@ -935,6 +924,7 @@ footer.about {
     width: 100%;
     text-align: left;
     font-size: 12px;
+    padding-top: 24px;
   }
 
   footer.about {
@@ -946,4 +936,26 @@ footer.about {
     margin: 0;
     padding-top: 12px;
   }
+
+  .see-more {
+      display: block;
+      width: 90%;
+      border: 1px solid #272a31;
+      margin: auto;
+      font-size: 20px;
+      font-family: 'Lato', sans-serif;
+      padding: 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      color: #272a31;
+      background-color: #fff;
+    }
+    .see-more span {
+        color: #ec5242;
+    }
+    .see-more-box {
+              padding-bottom: 24px;
+              background-color: #fff;
+
+    }
 }
