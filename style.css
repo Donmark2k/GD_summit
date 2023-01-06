@@ -50,7 +50,6 @@ body {
 }
 
 .navbar {
-  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -131,6 +130,7 @@ body {
     );
   -webkit-background-clip: text;
   color: transparent;
+  width: 85%;
 }
 
 .short-intro {
@@ -540,6 +540,10 @@ footer.about {
     display: none;
   }
 
+  .first-container {
+    background-image: none;
+  }
+
   .nav-menu1 {
     display: none;
   }
@@ -560,11 +564,10 @@ footer.about {
 
   .hamburger {
     display: block;
-    background: url(img/hamburger-bg.png)  no-repeat;
     width: 100%;
-    background-size: cover;
     padding-top: 24px;
     cursor: pointer;
+    z-index: 12;
   }
 
   .navbar {
@@ -598,7 +601,6 @@ footer.about {
   .nav-menu {
     position: fixed;
     flex-direction: column;
-    top: 50px;
     text-align: left;
     transition: 0.3s;
     width: 100%;
@@ -611,6 +613,7 @@ footer.about {
     height: 100vh;
     background-color: white;
     display: block;
+    padding-top: 25%;
   }
 
   .nav-link {
@@ -624,12 +627,13 @@ footer.about {
     padding-left: 28px;
   }
 
-  .first-container {
+  .home-container {
     background: url(img/bg6.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+    z-index: 120;
   }
 
   .introduction {
@@ -648,6 +652,7 @@ footer.about {
   .introduction h1 {
     font-size: 28px;
     line-height: 28px;
+    width: 100%;
   }
 
   .short-intro {
