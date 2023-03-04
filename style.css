@@ -410,6 +410,10 @@ footer {
   padding-bottom: 0;
 }
 
+.via-mail a {
+ color: black; 
+}
+
 .via-mail > span {
   margin-left: 12px;
   color: #272a31;
