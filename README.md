@@ -65,13 +65,9 @@ Here is a [presentation video](https://www.loom.com/share/77c45150212f466c8117d2
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- VS code
 - HTML
 -  CSS
 -  Javascript
-- Photoshop
-
-### Tech Stack <a name="tech-stack"></a>
 
 <!-- Features -->
 
@@ -110,56 +106,22 @@ You have to clone the repository first, then run it on your browser
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 https://github.com/Donmark2k/GD_summit.git
 
-<!--
-Example commands:
+### Install and Set Up
 
-```sh
-  cd my-folder
-  git clone git@github.com:donmark2k/GD_summit.git
-```
---->
-
-### Install
-
-Install this project with:
 - In your local PC, open your terminal in the folder you would like to clone the repository into
 - Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/GD_summit.git
 - After the clone, type in the command cd GD_summit to access the directory on the terminal
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 - Open the live server on your visual studio to  run this project. 
-
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
@@ -169,14 +131,6 @@ To run tests, run the following command:
 - Run npx stylelint "**/*.{css,scss}" for CSS check
 - Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using:
@@ -185,16 +139,6 @@ You can deploy this project using:
 Github pages
 
 <p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
-<!--
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
