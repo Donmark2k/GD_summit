@@ -59,19 +59,19 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [GD_summit] <a name="about-project"></a>
 
-**[GD_summit]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
+**GD_summit** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
 
 Here is a [presentation video](https://www.loom.com/share/77c45150212f466c8117d216a2cb36eb)
 
 ## 🛠 Built With <a name="built-with"></a>
 
-VS code, git, github, photoshop
+- VS code
+- HTML
+-  CSS
+-  Javascript
+- Photoshop
 
 ### Tech Stack <a name="tech-stack"></a>
-
-- Stylelint was used to check errors in style.css.
-- Webhint was used to check errors in index.html.
-- Eslint was used to check for errors in menu.js.
 
 <!-- Features -->
 
@@ -84,12 +84,6 @@ VS code, git, github, photoshop
 - **[Responsive Version]**
 - **[interactive hamburger menu]**
 - **[see more guest speakers on clicking see more]**
-
-
-
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +105,7 @@ You have to clone the repository first, then run it on your browser
 
 ### Prerequisites
 
-- In order to run this project you need:
+ In order to run this project you need:
 
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
@@ -141,7 +135,9 @@ Example commands:
 ### Install
 
 Install this project with:
-
+- In your local PC, open your terminal in the folder you would like to clone the repository into
+- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/GD_summit.git
+- After the clone, type in the command cd GD_summit to access the directory on the terminal
 <!--
 Example command:
 
@@ -154,6 +150,8 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- Open the live server on your visual studio to  run this project. 
+
 
 <!--
 Example command:
@@ -216,11 +214,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [1 ] **[I will include livechat]**
-
-
-
+- [1 ] I will include live-chat 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
