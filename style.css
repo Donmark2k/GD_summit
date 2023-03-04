@@ -351,10 +351,15 @@ footer {
   padding-top: 50px;
   flex-wrap: wrap;
 }
+.logo2 {
+  margin-top: 24px;
+}
 
 .copyright-details {
   width: 70%;
   color: #272a31;
+  display: block;
+  margin: auto 0;
 }
 
 .copyright-details h4 {
