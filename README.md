@@ -72,26 +72,6 @@ VS code, git, github, photoshop
 - Stylelint was used to check errors in style.css.
 - Webhint was used to check errors in index.html.
 - Eslint was used to check for errors in menu.js.
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -186,9 +166,10 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
-- To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
-- To check for javascript error, run npx eslint .
+- Run npx eslint . for JS check
+- Run npx eslint . --fix to fix JS errors if found
+- Run npx stylelint "**/*.{css,scss}" for CSS check
+- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
 
 <!--
 Example command:
@@ -201,7 +182,12 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+- Github pages
 
+Github pages
+
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
+<!--
 
 
 <!--
@@ -218,7 +204,7 @@ Example:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **Author**
+ 👤**Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
@@ -252,14 +238,14 @@ Feel free to check the [issues page](https://github.com/Donmark2k/GD_summit/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
-
+[Rita Daniel](https://github.com/RitaDee) has been of tremendous help so far.
+- Give a ⭐️ if you like this project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin](https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin](https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
