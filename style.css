@@ -20,6 +20,10 @@ body {
   color: rgba(211, 211, 211, 0.5);
 }
 
+.via-mail a {
+  color: black;
+}
+
 .top-header {
   background-color: #272a31;
   display: flex;
@@ -100,17 +104,18 @@ body {
   line-height: 64px;
   font-weight: 900;
   padding-right: 48px;
-  background: linear-gradient(
-    to left,
-    red,
-    rgba(236, 67, 96, 0.863),
-    rgba(255, 0, 0, 0.26),
-    rgb(105, 44, 3),
-    #ec5242,
-    red,
-    rgb(133, 88, 4),
-    red
-  );
+  background:
+    linear-gradient(
+      to left,
+      red,
+      rgba(236, 67, 96, 0.863),
+      rgba(255, 0, 0, 0.26),
+      rgb(105, 44, 3),
+      #ec5242,
+      red,
+      rgb(133, 88, 4),
+      red
+    );
   -webkit-background-clip: text;
   color: transparent;
   width: 70%;
@@ -392,10 +397,6 @@ footer {
   padding-bottom: 0;
 }
 
-.via-mail a {
-  color: black;
-}
-
 .via-mail > span {
   margin-left: 12px;
   color: #272a31;
@@ -517,11 +518,11 @@ footer.about {
 }
 
 @media screen and (max-width: 768px) {
-  .about .line-bar, 
-  .via-mail > span, 
+  .about .line-bar,
+  .via-mail > span,
   .about .short-intro,
-   .competition-date,  
-   .footer-note,
+  .competition-date,
+  .footer-note,
   .partner,
   .nav-branding,
   .forum .whole-program,
@@ -622,14 +623,6 @@ footer.about {
     width: 100%;
   }
 
-  .short-intro {
-    width: 100%;
-    padding: 8px;
-    font-size: 13px;
-    line-height: 24px;
-    color: #272a31;
-  }
-
   .time {
     font-size: 24px;
   }
@@ -638,7 +631,8 @@ footer.about {
     font-size: 12px;
   }
 
-  .grid-container, .grid-container2 {
+  .grid-container,
+  .grid-container2 {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -810,7 +804,8 @@ footer.about {
     gap: 44px;
   }
 
-  .about-footer, footer.home-page {
+  .about-footer,
+  footer.home-page {
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -827,7 +822,8 @@ footer.about {
     width: 98%;
   }
 
-  .about-footer .copyright-details, .copyright-details {
+  .copyright-details,
+  .about-footer .copyright-details {
     width: 50%;
   }
 
