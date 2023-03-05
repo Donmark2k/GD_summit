@@ -256,7 +256,7 @@ h3.whole-program {
 }
 
 .speakers-image {
-  background: url(img/img-b.PNG) left top no-repeat;
+  background: url(img/speakers-bg-image.PNG) left top no-repeat;
   position: relative;
   width: 20%;
   display: block;
@@ -472,7 +472,7 @@ footer.about {
 
 .past-summit {
   margin-top: 60px;
-  border-top: 3px solid rgba(60, 63, 70, 0.5);
+  border-top: 1px solid rgba(60, 63, 70, 0.3);
 }
 
 .past-summit h2 {
@@ -512,13 +512,13 @@ footer.about {
   background-position: center;
 }
 
-.first-image h2 {
+.first-image h2, .second-image h2 {
   color: #d3d3d3;
   text-align: center;
   font-size: 24px;
 }
 
-.first-image p {
+.first-image p, .second-image p {
   color: #d3d3d3;
   text-align: center;
   font-size: 18px;
@@ -532,20 +532,19 @@ footer.about {
   background-position: center;
 }
 
-.second-image h2 {
-  color: #d3d3d3;
-  text-align: center;
-  font-size: 24px;
-}
-
-.second-image p {
-  color: #d3d3d3;
-  text-align: center;
-  font-size: 18px;
-}
-
 @media screen and (max-width: 768px) {
-  .top-header {
+  
+  .about .line-bar, 
+  .via-mail > span, 
+  .about .short-intro,
+   .competition-date,  
+   .footer-note,
+    footer.home-page,
+  .partner,
+  .nav-branding,
+  .top-header,
+  .nav-menu1
+    {
     display: none;
   }
 
@@ -553,17 +552,9 @@ footer.about {
     background-image: none;
   }
 
-  .nav-menu1 {
-    display: none;
-  }
-
   .home-href {
     visibility: visible;
     display: block;
-  }
-
-  .nav-branding {
-    display: none;
   }
 
   .forum .whole-program {
@@ -769,11 +760,6 @@ footer.about {
     padding-top: 8px;
   }
 
-  footer.home-page,
-  .partner {
-    display: none;
-  }
-
   .about h3 {
     color: #ec5242;
     text-align: center;
@@ -791,10 +777,6 @@ footer.about {
     font-weight: bold;
   }
 
-  .about .short-intro {
-    display: none;
-  }
-
   .about .short-intro-mobile {
     display: block;
     margin: 50px auto 50px auto;
@@ -809,15 +791,7 @@ footer.about {
     font-weight: 400;
   }
 
-  .via-mail > span {
-    display: none;
-  }
-
-  .about .line-bar {
-    display: none;
-  }
-
-  .via-mail {
+   .via-mail {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -844,10 +818,6 @@ footer.about {
     margin: 0 auto 0 auto;
     padding-top: 0;
     color: #272a31;
-  }
-
-  .competition-date {
-    display: none;
   }
 
   .competition-date-mobile {
@@ -912,11 +882,7 @@ footer.about {
     gap: 44px;
   }
 
-  .footer-note {
-    display: none;
-  }
-
-  .about-footer {
+   .about-footer {
     width: 90%;
     display: flex;
     justify-content: space-between;
