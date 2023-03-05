@@ -59,39 +59,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [GD_summit] <a name="about-project"></a>
 
-**[GD_summit]** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
+**GD_summit** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
 
 Here is a [presentation video]()
 
 ## 🛠 Built With <a name="built-with"></a>
 
-VS code, git, github, photoshop
-
-### Tech Stack <a name="tech-stack"></a>
-
-- Stylelint was used to check errors in style.css.
-- Webhint was used to check errors in index.html.
-- Eslint was used to check for errors in menu.js.
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- HTML
+-  CSS
+-  Javascript
 
 <!-- Features -->
 
@@ -104,12 +80,6 @@ VS code, git, github, photoshop
 - **[Responsive Version]**
 - **[interactive hamburger menu]**
 - **[see more guest speakers on clicking see more]**
-
-
-
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,86 +101,44 @@ You have to clone the repository first, then run it on your browser
 
 ### Prerequisites
 
-- In order to run this project you need:
+ In order to run this project you need:
 
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 https://github.com/Donmark2k/GD_summit.git
 
-<!--
-Example commands:
+### Install and Set Up
 
-```sh
-  cd my-folder
-  git clone git@github.com:donmark2k/GD_summit.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- In your local PC, open your terminal in the folder you would like to clone the repository into
+- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/GD_summit.git
+- After the clone, type in the command cd GD_summit to access the directory on the terminal
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- Open the live server on your visual studio to  run this project. 
 
 ### Run tests
 
 To run tests, run the following command:
-
-- To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
-- To check for javascript error, run npx eslint .
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- Run npx eslint . for JS check
+- Run npx eslint . --fix to fix JS errors if found
+- Run npx stylelint "**/*.{css,scss}" for CSS check
+- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
 
 ### Deployment
 
 You can deploy this project using:
+- Github pages
 
+Github pages
 
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,7 +146,7 @@ Example:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **Author**
+ 👤**Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
@@ -230,11 +158,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [1 ] **[I will include livechat]**
-
-
-
+- [1 ] I will include live-chat 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,14 +176,14 @@ Feel free to check the [issues page](https://github.com/Donmark2k/GD_summit/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
-
+[Rita Daniel](https://github.com/RitaDee) has been of tremendous help so far.
+- Give a ⭐️ if you like this project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to appreciate Microverse for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin](https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning resources for this exercise, and I would specially thank   [Cindy Shin](https://www.behance.net/adagio07) who is the original author of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
