@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
 body {
-  box-sizing: border-box;
   width: 100%;
   background-color: white;
-  margin: 0;
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
   box-shadow: 0 5px 12px rgba(5, 0, 0, 0.5), 0 5px 12px rgba(5, 0, 0, 0.5);
@@ -14,10 +12,11 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .partner-list a {
-  text-decoration: none;
   color: rgba(211, 211, 211, 0.5);
 }
 
@@ -32,13 +31,11 @@ body {
   justify-content: space-between;
   width: 18%;
   margin-right: 12%;
-  list-style-type: none;
 }
 
 .top-nav li a {
   color: #d3d3d3;
   font-size: 20px;
-  text-decoration: none;
 }
 
 .navbar {
@@ -51,7 +48,6 @@ body {
 
 .nav-menu {
   display: flex;
-  list-style-type: none;
   justify-content: space-between;
   width: 65%;
   margin: auto 0;
@@ -60,7 +56,6 @@ body {
 .nav-menu li a {
   color: #272a31;
   font-size: 20px;
-  text-decoration: none;
   text-align: center;
   margin: auto 0;
 }
@@ -227,7 +222,7 @@ h3.whole-program {
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(359px, 2fr));
+  grid-template-columns: 0.5fr 0.5fr;
   width: 74%;
   justify-content: start;
   align-content: center;
@@ -318,7 +313,6 @@ h3.whole-program {
 }
 
 .google,
-.airbnb,
 .daumkakao {
   font-weight: 100;
 }
@@ -327,6 +321,7 @@ h3.whole-program {
   display: block;
   text-align: center;
   margin: auto 0;
+  font-weight: 100;
 }
 
 footer {
@@ -549,7 +544,6 @@ footer.about {
 
   .navbar {
     width: 100%;
-    display: flex;
   }
 
   .bar {
@@ -616,9 +610,7 @@ footer.about {
   }
 
   .introduction h3 {
-    color: #ec5242;
     font-size: 18px;
-    font-weight: normal;
     padding-top: 24px;
     width: 100%;
     padding-bottom: 8px;
@@ -646,11 +638,10 @@ footer.about {
     font-size: 12px;
   }
 
-  .grid-container {
+  .grid-container, .grid-container2 {
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
   }
 
   .main-card {
@@ -697,10 +688,6 @@ footer.about {
     padding-bottom: 12px;
   }
 
-  .grid-container2 {
-    width: 90%;
-  }
-
   .speakers-card {
     width: 95%;
     margin-bottom: 24px;
@@ -724,7 +711,6 @@ footer.about {
 
   .speakers-details p {
     font-size: 11px;
-    padding-top: 8px;
   }
 
   .about h3 {
@@ -792,7 +778,7 @@ footer.about {
 
   .second-image p,
   .first-image p {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .about-partner {
@@ -847,7 +833,6 @@ footer.about {
 
   .copyright-details h4 {
     color: #272a31;
-    width: 100%;
     text-align: left;
     font-size: 12px;
     padding-top: 24px;
@@ -860,6 +845,5 @@ footer.about {
   footer {
     padding: 0;
     margin: 0;
-    padding-top: 2px;
   }
 }
