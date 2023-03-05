@@ -146,9 +146,8 @@ body {
 }
 
 .forum {
-  background: url(img/bg2.png);
+  background: url(img/main-program-bg-image.png);
   background-repeat: repeat;
-  opacity: 1;
 }
 
 .main-program {
@@ -228,7 +227,7 @@ h3.whole-program {
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(359px, 2fr));
   width: 74%;
   justify-content: start;
   align-content: center;
@@ -244,7 +243,7 @@ h3.whole-program {
 }
 
 .speakers-image {
-  background: url(img/speakers-bg-image.PNG) left top no-repeat;
+  background: url(img/speakers-bg-image.png) left top no-repeat;
   position: relative;
   width: 20%;
   display: block;
@@ -331,14 +330,14 @@ h3.whole-program {
 }
 
 footer {
-  background-color: #fff;
   display: flex;
   justify-content: space-between;
   width: 76%;
   margin: 0 auto 0 auto;
-  padding-top: 50px;
+  padding-top: 2px;
   flex-wrap: wrap;
 }
+
 .logo2 {
   margin-top: 24px;
 }
@@ -431,7 +430,7 @@ footer.about {
 .about-footer .copyright-details {
   color: #d3d3d3;
   width: 73%;
-  text-align: center;
+  text-align: left;
 }
 
 .summit h2 {
@@ -528,9 +527,9 @@ footer.about {
   .about .short-intro,
    .competition-date,  
    .footer-note,
-    /* footer.home-page, */
   .partner,
   .nav-branding,
+  .forum .whole-program,
   .top-header,
   .nav-menu1 {
     display: none;
@@ -538,16 +537,6 @@ footer.about {
 
   .first-container {
     background-image: none;
-  }
-
-  .home-href {
-    visibility: visible;
-    display: block;
-  }
-
-  .forum .whole-program {
-    display: none;
-    visibility: hidden;
   }
 
   .hamburger {
@@ -605,8 +594,6 @@ footer.about {
   }
 
   .nav-link {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
@@ -667,24 +654,17 @@ footer.about {
   }
 
   .main-card {
-    background-color: rgba(60, 63, 70, 0.5);
-    border-radius: 4px;
-    width: 100%;
-    border: 2px solid rgba(60, 63, 70, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .main-card img {
-    display: block;
-    margin: 24px auto 12px auto;
     width: 15%;
   }
 
   .main-card h3 {
     text-align: left;
-    color: #ec5242;
     font-size: 12px;
     display: block;
     margin: auto;
@@ -694,7 +674,6 @@ footer.about {
   .main-card p {
     text-align: left;
     padding: 4px;
-    color: #d3d3d3;
     width: 60%;
     font-size: 11px;
     margin: auto;
@@ -758,9 +737,7 @@ footer.about {
   section.about h1 {
     margin: 0;
     font-size: 30px;
-    background-color: #fff;
     width: 100%;
-    text-align: center;
     padding: 0;
     font-weight: bold;
   }
@@ -780,32 +757,19 @@ footer.about {
   }
 
   .via-mail {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 4px;
     padding-bottom: 24px;
     text-decoration: underline;
   }
 
   .summit h2 {
-    text-align: center;
-    font-weight: bold;
-    color: #272a31;
-    font-size: 24px;
-    padding-bottom: 4px;
     padding-top: 60px;
     width: 75%;
     margin: 0 auto 0 auto;
   }
 
   .summit p {
-    text-align: center;
     width: 90%;
     font-size: 12px;
-    margin: 0 auto 0 auto;
-    padding-top: 0;
-    color: #272a31;
   }
 
   .competition-date-mobile {
@@ -817,28 +781,18 @@ footer.about {
   }
 
   .past-summit p {
-    text-align: center;
-    color: #272a31;
     font-size: 12px;
     width: 90%;
     margin: 0 auto 0 auto;
   }
 
   .past-images {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-    justify-content: space-between;
-    width: 80%;
     margin: 20px auto 20px auto;
-    align-content: center;
-    flex-wrap: wrap;
   }
 
   .second-image p,
   .first-image p {
-    color: #d3d3d3;
-    text-align: center;
-    font-size: 16px;
+      font-size: 16px;
   }
 
   .about-partner {
