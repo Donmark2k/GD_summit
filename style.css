@@ -86,7 +86,6 @@ body {
 }
 
 .hamburger,
-.see-more,
 .join-summit {
   display: none;
 }
@@ -919,28 +918,5 @@ footer.about {
     padding: 0;
     margin: 0;
     padding-top: 12px;
-  }
-
-  .see-more {
-    display: block;
-    width: 90%;
-    border: 1px solid #272a31;
-    margin: auto;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    padding: 8px;
-    border-radius: 4px;
-    font-weight: 700;
-    color: #272a31;
-    background-color: #fff;
-  }
-
-  .see-more span {
-    color: #ec5242;
-  }
-
-  .see-more-box {
-    padding-bottom: 24px;
-    background-color: #fff;
   }
 }
