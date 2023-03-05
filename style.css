@@ -1,26 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
 body {
   box-sizing: border-box;
   width: 100%;
   background-color: white;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   overflow-x: hidden;
-  box-shadow:
-    0 5px 12px rgba(5, 0, 0, 0.5),
-    0 5px 12px rgba(5, 0, 0, 0.5);
+  box-shadow: 0 5px 12px rgba(5, 0, 0, 0.5), 0 5px 12px rgba(5, 0, 0, 0.5);
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-}
-
-.home-href {
-  visibility: hidden;
-  display: none;
 }
 
 .partner-list a {
@@ -44,7 +37,6 @@ body {
 
 .top-nav li a {
   color: #d3d3d3;
-  font-family: 'Lato', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -67,11 +59,9 @@ body {
 
 .nav-menu li a {
   color: #272a31;
-  font-family: 'Lato', sans-serif;
   font-size: 20px;
   text-decoration: none;
   text-align: center;
-  background-color: #fff;
   margin: auto 0;
 }
 
@@ -91,7 +81,7 @@ body {
 }
 
 .first-container {
-  background: url(img/bg5.jpg);
+  background: url(img/first-container-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -115,18 +105,17 @@ body {
   line-height: 64px;
   font-weight: 900;
   padding-right: 48px;
-  background:
-    linear-gradient(
-      to left,
-      red,
-      rgba(236, 67, 96, 0.863),
-      rgba(255, 0, 0, 0.26),
-      rgb(105, 44, 3),
-      #ec5242,
-      red,
-      rgb(133, 88, 4),
-      red
-    );
+  background: linear-gradient(
+    to left,
+    red,
+    rgba(236, 67, 96, 0.863),
+    rgba(255, 0, 0, 0.26),
+    rgb(105, 44, 3),
+    #ec5242,
+    red,
+    rgb(133, 88, 4),
+    red
+  );
   -webkit-background-clip: text;
   color: transparent;
   width: 70%;
@@ -410,7 +399,7 @@ footer {
 }
 
 .via-mail a {
- color: black; 
+  color: black;
 }
 
 .via-mail > span {
@@ -504,27 +493,29 @@ footer.about {
 }
 
 .first-image {
-  background: url(img/past-summit1.png)  no-repeat;
+  background: url(img/past-summit1.png) no-repeat;
   width: 100%;
   height: 200px;
   background-size: contain;
   background-position: center;
 }
 
-.first-image h2, .second-image h2 {
+.first-image h2,
+.second-image h2 {
   color: #d3d3d3;
   text-align: center;
   font-size: 24px;
 }
 
-.first-image p, .second-image p {
+.first-image p,
+.second-image p {
   color: #d3d3d3;
   text-align: center;
   font-size: 18px;
 }
 
 .second-image {
-  background: url(img/past-summit2.png)  no-repeat;
+  background: url(img/past-summit2.png) no-repeat;
   width: 100%;
   height: 200px;
   background-size: contain;
@@ -532,18 +523,16 @@ footer.about {
 }
 
 @media screen and (max-width: 768px) {
-  
   .about .line-bar, 
   .via-mail > span, 
   .about .short-intro,
    .competition-date,  
    .footer-note,
-    footer.home-page,
+    /* footer.home-page, */
   .partner,
   .nav-branding,
   .top-header,
-  .nav-menu1
-    {
+  .nav-menu1 {
     display: none;
   }
 
@@ -610,13 +599,13 @@ footer.about {
     left: 0;
     cursor: pointer;
     height: 100vh;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     display: block;
     padding-top: 25%;
   }
 
   .nav-link {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -790,7 +779,7 @@ footer.about {
     font-weight: 400;
   }
 
-   .via-mail {
+  .via-mail {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -881,7 +870,7 @@ footer.about {
     gap: 44px;
   }
 
-   .about-footer {
+  .about-footer, footer.home-page {
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -898,7 +887,7 @@ footer.about {
     width: 98%;
   }
 
-  .about-footer .copyright-details {
+  .about-footer .copyright-details, .copyright-details {
     width: 50%;
   }
 
@@ -917,6 +906,6 @@ footer.about {
   footer {
     padding: 0;
     margin: 0;
-    padding-top: 12px;
+    padding-top: 2px;
   }
 }
