@@ -98,7 +98,6 @@ Here is a [presentation video](https://www.loom.com/share/77c45150212f466c8117d2
 
 ## Project Screenshots
 
-![Home page](./img/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
