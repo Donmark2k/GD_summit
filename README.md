@@ -73,13 +73,14 @@ Here is a [presentation video](https://www.loom.com/share/77c45150212f466c8117d2
 
 ### Key Features <a name="key-features"></a>
 
-- **[introduce a forthcoming summit]**
-- **[introduce the guest speakers]**
-- **[show the pictures of the past summit]**
-- **[showcase who won the logo competition]**
-- **[Responsive Version]**
-- **[interactive hamburger menu]**
-- **[see more guest speakers on clicking see more]**
+<li> introduce a forthcoming summit</li>
+<li> introduce the guest speakers</li>
+<li> show the pictures of the past summit</li>
+<li> showcase who won the logo competition</li>
+<li> Responsive Version</li>
+<li> interactive hamburger menu</li>
+<li> see more guest speakers on clicking see more</li>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
