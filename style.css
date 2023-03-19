@@ -360,7 +360,7 @@ footer {
   font-size: 50px;
   color: #ec5242;
   text-align: center;
-  width: 70%;
+  width: 60%;
   line-height: 50px;
   margin: 0 auto 0 auto;
 }
@@ -518,6 +518,11 @@ footer.about {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar,
+  .short-intro {
+    width: 100%;
+  }
+
   .about .line-bar,
   .via-mail > span,
   .about .short-intro,
@@ -541,10 +546,6 @@ footer.about {
     padding-top: 24px;
     cursor: pointer;
     z-index: 12;
-  }
-
-  .navbar, .short-intro {
-    width: 100%;
   }
 
   .bar {
