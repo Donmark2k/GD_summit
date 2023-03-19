@@ -73,13 +73,14 @@ Here is a [presentation video]()
 
 ### Key Features <a name="key-features"></a>
 
-- **[introduce a forthcoming summit]**
-- **[introduce the guest speakers]**
-- **[show the pictures of the past summit]**
-- **[showcase who won the logo competition]**
-- **[Responsive Version]**
-- **[interactive hamburger menu]**
-- **[see more guest speakers on clicking see more]**
+<li> introduce a forthcoming summit</li>
+<li> introduce the guest speakers</li>
+<li> show the pictures of the past summit</li>
+<li> showcase who won the logo competition</li>
+<li> Responsive Version</li>
+<li> interactive hamburger menu</li>
+<li> see more guest speakers on clicking see more</li>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,50 +96,53 @@ Here is a [presentation video]()
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## Project Screenshots
 
-You have to clone the repository first, then run it on your browser
+![Home page](./img/screenshot.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
 
- In order to run this project you need:
-
+In order to run this project you need:
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+- Have a working and updated browser
+- Have a local version control like git installed on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS.
 
 ### Setup
-
-Clone this repository to your desired folder:
-https://github.com/Donmark2k/GD_summit.git
-
-### Install and Set Up
-
-- In your local PC, open your terminal in the folder you would like to clone the repository into
-- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/GD_summit.git
-- After the clone, type in the command cd GD_summit to access the directory on the terminal
+To get a local copy of this project up and running, follow these steps.
+- copy [this link](https://github.com/Donmark2k/GD_summit.git).
+- get to the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone github.com/Donmark2k/GD_summit.git`
+- go to the repository folder in your command prompt cd maths-magicians
+- write `code .` to open the project in visual studio code.
 
 ### Usage
-
 To run the project, execute the following command:
-- Open the live server on your visual studio to  run this project. 
+
+- In visual studio  press `alt + L + O` then the project will open on your browser "http://127.0.0.1:5500/".
 
 ### Run tests
 
-To run tests, run the following command:
-- Run npx eslint . for JS check
-- Run npx eslint . --fix to fix JS errors if found
-- Run npx stylelint "**/*.{css,scss}" for CSS check
-- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+- `npx stylelint "/*.{css,scss}"**`: To test css code
+- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix`: To fix some JS errors if found
 
 ### Deployment
 
 You can deploy this project using:
 - Github pages
 
-Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
