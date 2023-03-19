@@ -98,6 +98,7 @@ Here is a [presentation video](https://www.loom.com/share/77c45150212f466c8117d2
 
 ## Project Screenshots
 
+![Home page](./img/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +142,7 @@ To run the project, execute the following command:
 You can deploy this project using:
 - Github pages
 
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on hoe to deploy on github pages</p>
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

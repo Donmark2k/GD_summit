@@ -543,7 +543,7 @@ footer.about {
     z-index: 12;
   }
 
-  .navbar {
+  .navbar, .short-intro {
     width: 100%;
   }
 
