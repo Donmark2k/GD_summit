@@ -114,28 +114,21 @@ In order to run this project you need:
 - Have a working and updated browser
 - Have a local version control like git installed on your computer
 - Have an account and sign in on GitHub, as online/remote version control system
-- Basic knowledge in JS and React-JS
+- Basic knowledge in JS.
 
 ### Setup
 To get a local copy of this project up and running, follow these steps.
-- copy [this link](https://github.com/Donmark2k/maths-magicians.git).
+- copy [this link](https://github.com/Donmark2k/GD_summit.git).
 - get to the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write `git clone github.com/Donmark2k/maths-magicians.git`
+- write `git clone github.com/Donmark2k/GD_summit.git`
 - go to the repository folder in your command prompt cd maths-magicians
 - write `code .` to open the project in visual studio code.
-
-### Install
-
-To install this project in your local machine use
-
-- Goto the terminal in Visual Studio code by pressing `ctrl '`
-- Install the project dependencies by typing: `npm install` in the terminal.
 
 ### Usage
 To run the project, execute the following command:
 
-- In visual studio terminal type `npm start` then the project will open on your browser "http://localhost:3000".
+- In visual studio  press `alt + L + O` then the project will open on your browser "http://127.0.0.1:5500/".
 
 ### Run tests
 
@@ -149,9 +142,7 @@ To run the project, execute the following command:
 You can deploy this project using:
 - Github pages
 
-Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on hoe to deploy on github pages</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
