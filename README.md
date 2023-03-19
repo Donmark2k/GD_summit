@@ -95,41 +95,53 @@ Here is a [presentation video](https://www.loom.com/share/77c45150212f466c8117d2
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## Project Screenshots
 
-You have to clone the repository first, then run it on your browser
+![Home page](./src/asset/screenshot.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
 
- In order to run this project you need:
-
+In order to run this project you need:
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+- Have a working and updated browser
+- Have a local version control like git installed on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS and React-JS
 
 ### Setup
+To get a local copy of this project up and running, follow these steps.
+- copy [this link](https://github.com/Donmark2k/maths-magicians.git).
+- get to the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone github.com/Donmark2k/maths-magicians.git`
+- go to the repository folder in your command prompt cd maths-magicians
+- write `code .` to open the project in visual studio code.
 
-Clone this repository to your desired folder:
-https://github.com/Donmark2k/GD_summit.git
+### Install
 
-### Install and Set Up
+To install this project in your local machine use
 
-- In your local PC, open your terminal in the folder you would like to clone the repository into
-- Clone the repository with the command: git clone (copied link); like so: https://github.com/Donmark2k/GD_summit.git
-- After the clone, type in the command cd GD_summit to access the directory on the terminal
+- Goto the terminal in Visual Studio code by pressing `ctrl '`
+- Install the project dependencies by typing: `npm install` in the terminal.
 
 ### Usage
-
 To run the project, execute the following command:
-- Open the live server on your visual studio to  run this project. 
+
+- In visual studio terminal type `npm start` then the project will open on your browser "http://localhost:3000".
 
 ### Run tests
 
-To run tests, run the following command:
-- Run npx eslint . for JS check
-- Run npx eslint . --fix to fix JS errors if found
-- Run npx stylelint "**/*.{css,scss}" for CSS check
-- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+- `npx stylelint "/*.{css,scss}"**`: To test css code
+- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix`: To fix some JS errors if found
 
 ### Deployment
 
