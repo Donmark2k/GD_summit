@@ -61,8 +61,6 @@ After you're finished please remove all the comments and instructions!
 
 **GD_summit** is a project designed to inform the public about this year Graphic Designers Conference Scheduled to hold in Nigeria. 
 
-Here is a [presentation video]()
-
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
@@ -81,16 +79,14 @@ Here is a [presentation video]()
 <li> interactive hamburger menu</li>
 <li> see more guest speakers on clicking see more</li>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - Here is a [Live Demo Link](https://donmark2k.github.io/GD_summit/)
-
+- Here is a [presentation video link](https://www.loom.com/share/e87f06686ebc44b4a3965d6800c5121f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
