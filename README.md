@@ -158,7 +158,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [1 ] I will include live-chat 
+- I will include live-chat
+- I will add date and time in the Navbar 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
