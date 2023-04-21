@@ -118,7 +118,7 @@ To get a local copy of this project up and running, follow these steps.
 - get to the directory that you want to clone the repository.
 - open the command prompt in this directory.
 - write `git clone github.com/Donmark2k/GD_summit.git`
-- go to the repository folder in your command prompt cd maths-magicians
+- go to the repository folder in your command prompt cd GD_summit
 - write `code .` to open the project in visual studio code.
 
 ### Usage
