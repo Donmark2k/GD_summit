@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <title aria-label="title">Graphic Designer's Summit Website</title>
   </head>
   <body>
-    <!-- Navigation Section  -->
+    <!----------------- Navigation Section  ---------------------------->
     <header class="home-container">
-      <nav class="top-header">
+      <nav class="top-header hide-class">
         <ul class="top-nav">
           <li class="top-item">
             <a href="https://web.facebook.com/onyeka2k" class="nav-link">
@@ -31,10 +31,10 @@
         </ul>
       </nav>
       <div class="navbar">
-        <a href="index.html" class="nav-branding">
+        <a href="index.html" class="nav-branding hide-class">
           <img src="img/header-logo.png" alt="logo image"/>
         </a>
-        <ul class="nav-menu nav-menu1">
+        <ul class="nav-menu nav-menu1 hide-class">
           <li class="nav-item">
             <a href="about.html" class="nav-link">About</a>
           </li>
@@ -67,18 +67,16 @@
             <h1>GRAPHIC DESIGNERS GLOBAL SUMMIT 2023</h1>
           </div>
           <p class="short-intro">
-            A joyful celebration believing in the value of openness and sharing,
-            creating a positive with people from over 80 countries is taking
-            place in January, in Nigeria.
+            A global event promoting modern design ideas is happening in Nigeria, engaging participants from over 80 countries.
           </p>
           <p class="time">2023.01.03(TUE) ~ 04(WED)</p>
           <p class="venue">
-            @ National Theatre and Museum, Art Center Lagos and more
+            @ National Theatre and Museum, Lagos 
           </p>
         </section>
       </section>
     </header>
-    <!-- Main Program Section -->
+    <!--------------------- Main Program Section -------------------------------->
     <section class="forum" id="program">
       <h2 class="main-program">Main Program</h2>
       <span class="line-bar"></span>
@@ -129,15 +127,29 @@
         <a href="" class="join-summit"> Join GD Global Summit 2015</a>
       </div>
     </section>
-    <!-- Guest Speakers -->
+    <!---------------------------- Guest Speakers ------------------------->
     <h2 class="featured-speakers">Featured Speakers</h2>
     <span class="line-bar"></span>
-    <section
+    <section>
+      <div  
       class="grid-container2"
       aria-label="invited  speakers"
       id="invited-speakers">
+   <!-- DYNAMIC ELEMENTS FROM JAVASCRIPT GOES HERE -->
+</div>
+   <div class="show-btn">
+    <button type="button" id="more" class="show-more">
+        <span>MORE</span>
+        <img class="drop-down" src="img/arrow-down.png" alt="drop-down-arrow">
+    </button>
+    <button type="button" id="less" class="show-more hide-speaker">
+        <span>LESS</span>
+        <img class="drop-down" src="img/arrow-up.png" alt="drop-down-arrow">
+    </button>
+</div>
+
     </section>
-    <!-- Partner session  -->
+    <!------------------------------ Partner session  ---------------------------------->
     <section class="partner" aria-label="partners  section" id="partners">
       <h2>Partner</h2>
       <span class="line-bar"></span>
@@ -166,13 +178,9 @@
         <img src="img/footer-logo.png" alt="footer logo" />
       </div>
       <div class="copyright-details">
-        <h4>2023 Graphic Designs Nigeria. Some Rights Reserved.</h4>
-        <p class="footer-note">
-          Graphics is the soul of a website and permanent branding of a company.
-          We brand products that communicate tailored messages to the targeted
-          audience
-        </p>
-      </div>
+        <p>2023 Graphic Designs Nigeria. Some Rights Reserved</p>
+        
+       </div>
     </footer>
     <script src="main.js"></script>
   </body>

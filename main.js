@@ -70,4 +70,29 @@ for (let i = 0; i < speakers.length; i += 1) {
     </div>
  </article>
       `;
+      const speakerBox = document.querySelectorAll('.speakers-card');
+      if (i > 1) {
+        speakerBox[i].classList.add('hide-speaker');
+      }
 }
+const moreBtn = document.getElementById('more');
+const lessBtn = document.getElementById('less');
+const speakerBox = document.querySelectorAll('.speakers-card');
+moreBtn.addEventListener('click', () => {
+  speakerBox.forEach((speaker) => {
+    speaker.classList.remove('hide-speaker');
+    moreBtn.classList.add('hide-speaker');
+    lessBtn.classList.remove('hide-speaker');
+  });
+});
+
+lessBtn.addEventListener('click', () => {
+  speakerBox.forEach((speaker, index) => {
+    if (index > 1) {
+      speaker.classList.add('hide-speaker');
+    }
+
+    moreBtn.classList.remove('hide-speaker');
+    lessBtn.classList.add('hide-speaker');
+  });
+});

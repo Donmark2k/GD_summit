@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  box-shadow: 0 5px 12px rgba(5, 0, 0, 0.5), 0 5px 12px rgba(5, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.hide-class, .whole-program, .partner {
+    display: none;
+  }
+
+
+  .hamburger {
+    padding-top: 24px;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #272a31;
+    margin-left: 24px;
+    z-index: 1000;
+    position: relative;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    text-align: left;
+    transition: 0.3s;
+    width: 100%;
+    z-index: 12;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    cursor: pointer;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding-top: 25%;
+  }
+
+  .nav-link {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+    color: #272a31;
+    margin-top: 40px;
+    padding-left: 28px;
+  }
+
+  .home-container {
+    background: url(img/bg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .introduction {
+    margin: 0 auto;
+    padding: 6% 6% 18% 6%;
+  }
+  
+  .introduction h3 {
+    color: #ec5242;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .introduction h1 {
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 900;
+    padding-top: 8px;
+    background:
+      linear-gradient(
+        to left,
+        red,
+        rgba(236, 67, 96, 0.863),
+        rgba(255, 0, 0, 0.26),
+        rgb(105, 44, 3),
+        #ec5242,
+        red,
+        rgb(133, 88, 4),
+        red
+      );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .short-intro {
+    border: 2px solid #fff;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 24px;
+    background-color: rgba(249, 249, 249, 0.3);
+    border-radius: 4px;
+  }
+  
+  .time {
+    font-size: 24px;
+    color: #272a31;
+    font-weight: 900;
+    margin: 4% 0 1% 0;
+  }
+  
+  .venue {
+    color: #272a31;
+    font-weight: bold;
+  }
+  
+  .forum {
+    background: url(img/main-program-bg-image.png);
+    background-repeat: repeat;
+    padding-bottom: 2%;
+  }
+  .main-program {
+    color: #d3d3d3;
+    font-size: 24px;
+    padding-top: 48px;
+    text-align: center;
+  }
+  
+  .line-bar {
+    display: block;
+    margin: 4px auto 24px auto;
+    background-color: #ec5242;
+    width: 40px;
+    height: 4px;
+  }
+  
+
+  .grid-container,
+  .grid-container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid rgba(60, 63, 70, 0.5);
+    border-radius: 4px;
+    background-color: rgba(60, 63, 70, 0.5);
+margin-bottom: 4px;
+  }
+
+  .main-card:hover {
+    border: 2px solid #d3d3d3;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.1, 1.1);
+  }
+  
+  .main-card img {
+    margin: 24px auto 12px auto;
+    width: 15%;
+
+  }
+  
+  .main-card h3 {
+    text-align: left;
+    color: #ec5242;
+    font-size: 12px;
+    width: 20%;
+    margin: auto;
+
+  }
+  
+  .main-card p {
+    text-align: left;
+    padding: 12px;
+    color: #d3d3d3;
+    font-size: 11px;
+    width: 60%;
+    margin: auto;
+
+  }
+  
+  .forum .join-summit {
+    display: block;
+    background-color: #ec5242;
+    color: #d3d3d3;
+    padding: 24px;
+    text-decoration: none;
+    width: 65%;
+    font-size: 13px;
+    margin: 24px auto 24px auto;
+    font-weight: bold;
+    text-align: center;
+  }
+  .featured-speakers {
+    text-align: center;
+    font-size: 24px;
+    color: #272a31;
+    margin-top: 50px;
+  }
+
+  
+.speakers-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4%;
+  }
+  
+  .speakers-image {
+    background: url(img/speakers-bg-image.png) left top no-repeat;
+    position: relative;
+    width: 20%;
+    height: 100%;
+  }
+  
+  .speakers-image img {
+    display: block;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 100%;
+  }
+  
+  .speakers-details {
+    width: 73%;
+  }
+  
+  .speakers-details h3 {
+    color: #272a31;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .speakers-details h5 {
+    color: #ec5242;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 4px;
+    padding-bottom: 8px;
+  }
+  .line-bar-speaker {
+    display: block;
+    margin: 0;
+    background-color: rgba(60, 63, 70, 0.5);
+    width: 35px;
+    height: 4px;
+  }
+  .speakers-details p {
+    color: #272a31;
+    font-size: 0.625rem;
+    padding: 4px 0;
+  }
+
+
+  .show-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 100%;
+    background-color: #fff;
+    border: #e0e0e0 1px solid;
+  }
+  
+  .show-more > * {
+    font-size: 0.7rem;
+    margin-right: 10%;
+  }
+  
+  .show-more image {
+    color: #ec5242;
+  }
+  
+  .hide-speaker {
+    display: unset;
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    padding: 3% 4% 1% 4%;
+    flex-direction: row;
+  }
+    
+  .logo2 img {
+    width: 100%;
+    margin: auto;
+
+  }
+  
+  .copyright-details p {
+    color: #272a31;
+    font-size: 12px;
+    padding-top: 24px;
+  }
+
+
+
+  
+  @media screen and (min-width: 769px) {
+    .first-container {
+        background: url(img/first-container-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+}
