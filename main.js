@@ -12,7 +12,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n
     navMenu.classList.remove('active');
   }));
 
-// pop-up menu
+// Invited Speakers
 const speakers = [{
   id: '1',
   speakerName: ' Ochuba Chukwuemeka',
