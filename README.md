@@ -142,16 +142,6 @@ Run the server using the following command:
   alt + L + O
 ```
 
-### Run tests
-Run this command to fix some CSS linters error
-```sh
-  npx stylelint "**/*.{css,scss}" --fix
-``` 
-Run this command to fix some JavaScript linters error
-```sh
-  npx eslint . --fix
-```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->

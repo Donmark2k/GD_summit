@@ -52,7 +52,7 @@ const speakers = [{
   id: '6',
   speakerName: ' Olanma Olaide',
   speakerImage: 'img/speaker6.png',
-  speakerPosition: 'img/Professor at School of Health Science.',
+  speakerPosition: 'Professor at School of Health Science.',
   speakerInfo: 'Olanma had been leading open-source projects at the Orange Health Science Foundation such as the open source movement.',
 }];
 
@@ -70,10 +70,10 @@ for (let i = 0; i < speakers.length; i += 1) {
     </div>
  </article>
       `;
-      const speakerBox = document.querySelectorAll('.speakers-card');
-      if (i > 1) {
-        speakerBox[i].classList.add('hide-speaker');
-      }
+  const speakerBox = document.querySelectorAll('.speakers-card');
+  if (i > 1) {
+    speakerBox[i].classList.add('hide-speaker');
+  }
 }
 const moreBtn = document.getElementById('more');
 const lessBtn = document.getElementById('less');
