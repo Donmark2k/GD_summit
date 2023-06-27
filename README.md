@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>GD Summit </b></h3>
+  <h3><b>🕹️🕹️GD Summit 🕹️🕹️</b></h3>
 
 </div>
 
@@ -43,7 +43,6 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -52,7 +51,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -63,21 +61,38 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML
--  CSS
--  Javascript
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Link to HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Link to CSS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">Link to Javascript</a></li>
+  </ul>
+</details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-<li> introduce a forthcoming summit</li>
-<li> introduce the guest speakers</li>
-<li> show the pictures of the past summit</li>
-<li> showcase who won the logo competition</li>
-<li> Responsive Version</li>
-<li> interactive hamburger menu</li>
-<li> see more guest speakers on clicking see more</li>
+- **This Project has a Readme.md file**
+- **This Project has a gitignore file**
+- **This Project shows the pictures of the past summit**
+- **This Project shows who won the logo competition**
+- **This project gives details about the Graphics design festival, its date, time and location**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,36 +122,25 @@ In order to run this project you need:
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 - Have a working and updated browser
 - Have a local version control like git installed on your computer
-- Have an account and sign in on GitHub, as online/remote version control system
-- Basic knowledge in JS.
+- A copy of the link of this Repository.
+```sh
+ https://github.com/Donmark2k/GD_summit.git
+```
 
 ### Setup
-To get a local copy of this project up and running, follow these steps.
-- copy [this link](https://github.com/Donmark2k/GD_summit.git).
-- get to the directory that you want to clone the repository.
-- open the command prompt in this directory.
-- write `git clone github.com/Donmark2k/GD_summit.git`
-- go to the repository folder in your command prompt `cd GD_summit`
-- write `code .` to open the project in visual studio code.
+Clone this repository to your desired directory using the command: 
+
+```sh
+  cd your-folder
+  git clone https://github.com/Donmark2k/GD_summit.git 
+```
 
 ### Usage
-To run the project, execute the following command:
+Run the server using the following command:
 
-- In visual studio  press `alt + L + O` then the project will open on your browser "http://127.0.0.1:5500/".
-
-### Run tests
-
-- `npx stylelint "/*.{css,scss}"**`: To test css code
-- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
-- `npx eslint .` : To test Eslint Report
-- `npx eslint . --fix`: To fix some JS errors if found
-
-### Deployment
-
-You can deploy this project using:
-- Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example on how to deploy on github pages</p>
+```sh
+  alt + L + O
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,8 +160,13 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- I will include live-chat
-- I will add date and time in the Navbar 
+- [ ] **Tickets Page to Join event**
+- [ ] **Accommodation Booking Page for travellers**
+- [ ] **Individual Event Activity Pages**
+- [ ] **Sponsor Page**
+- [ ] **Multi-Language implementation for page**
+- [ ] **Sign In Page for users to keep unique user details**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,8 +184,7 @@ Feel free to check the [issues page](https://github.com/Donmark2k/GD_summit/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-[Rita Daniel](https://github.com/RitaDee) has been of tremendous help so far.
-- Give a ⭐️ if you like this project!
+If you like this project kindly support by suggesting changes through forking and pull requests
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -186,25 +194,11 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Are you sure that you are owner of this work]**
-
-  - [Yes, I am]
-
-- **[Can you make the work to be responsive]**
-
-  - [yes]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
